@@ -22,7 +22,8 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <img src="public/img/logo-ensiasd.jpg" alt="Logo ENSIASD" class="logo-img">
+                <img src="{{ asset('IMG/logo.png') }}" alt="Logo ENSIASD" class="logo-img">
+
                     <h1 class="logo-text">ENSIASD</h1>
                 </div>
                 
