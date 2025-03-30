@@ -167,7 +167,7 @@
                             <div class="formation-level">Bac+5</div>
                         </div>
                         <div class="formation-content">
-                            <h3 class="formation-title">Management et hibae des Systèmes d’Information</h3>
+                            <h3 class="formation-title">Management et Gouvernance des Systèmes d’Information</h3>
                             <p class="formation-description">
                             La filière Management et Gouvernance des Systèmes d'Information (MGSI) forme des professionnels capables de gérer et optimiser les systèmes d'information au sein des organisations. Elle allie compétences techniques en informatique et gestion stratégique. L'objectif est de garantir la sécurité, l'efficacité et l'alignement des SI avec les objectifs d'entreprise.                            </p>
                         </div>
