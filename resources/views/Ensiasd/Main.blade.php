@@ -18,58 +18,59 @@
 </head>
 <body>
     <!-- Header (Layout Component) -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
+   <!-- Header (Layout Component) -->
+<header class="header">
+    <div class="container">
+        <div class="header-content">
+            <div class="logo">
                 <img src="{{ asset('IMG/logo.png') }}" alt="Logo ENSIASD" class="logo-img">
-
-            
-                </div>
-                
-                <!-- Navigation Desktop -->
-                <nav class="nav-desktop">
-                    <ul class="nav-links">
-                        <li><a href="#about" class="nav-link">À propos</a></li>
-                        <li><a href="#formations" class="nav-link">Formations</a></li>
-                        <li><a href="#formations" class="nav-link">Professeurs</a></li>
-                        <li><a href="#contact" class="nav-link">Contact</a></li>
-                    </ul>
-                    <div class="nav-actions">
-                        
-                        <button id="signin-button" class="btn btn-outline-primary">
-                            <i class="fas fa-sign-in-alt"></i> Se connecter
-                        </button>
-                        <button id="signup-button" class="btn btn-primary">
-                            <i class="fas fa-user-plus"></i> S'inscrire
-                        </button>
-                        <button id="theme-toggle" class="theme-toggle" aria-label="Changer de thème">
-                            <i class="fas fa-sun"></i>
-                        </button>
-                    </div>
-                </nav>
-                
-                <!-- Navigation Mobile -->
-                <div class="nav-mobile">
-                    <button id="mobile-menu-button" class="mobile-menu-btn" aria-label="Ouvrir le menu">
-                        <i class="fas fa-bars"></i>
-                    </button>
-                </div>
             </div>
             
-            <!-- Menu Mobile -->
-            <nav id="mobile-menu" class="mobile-menu hidden">
-                <ul class="mobile-nav-links">
-                    <li><a href="#about" class="mobile-nav-link"><i class="fas fa-info-circle"></i> À propos</a></li>
-                    <li><a href="#formations" class="mobile-nav-link"><i class="fas fa-graduation-cap"></i> Formations</a></li>
-                    <li><a href="#contact" class="mobile-nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
-                    <li><a href="#" id="theme-toggle-mobile" class="mobile-nav-link"><i class="fas fa-sun"></i> Changer de thème</a></li>
-                    <li><a href="#" id="signin-mobile" class="mobile-nav-link"><i class="fas fa-sign-in-alt"></i> Se connecter</a></li>
-                    <li><a href="#" id="signup-mobile" class="mobile-nav-link highlight"><i class="fas fa-user-plus"></i> S'inscrire</a></li>
+            <!-- Navigation Desktop -->
+            <nav class="nav-desktop">
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">À propos</a></li>
+                    <li><a href="#formations" class="nav-link">Formations</a></li>
+                    <li><a href="#professors" class="nav-link">Professeurs</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
+                <div class="nav-actions">
+                    <button id="signin-button" class="btn btn-outline-primary">
+                        <i class="fas fa-sign-in-alt"></i> Se connecter
+                    </button>
+                    <button id="signup-button" class="btn btn-primary">
+                        <i class="fas fa-user-plus"></i> S'inscrire
+                    </button>
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Changer de thème">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </div>
             </nav>
+            
+            <!-- Navigation Mobile -->
+            <div class="nav-mobile">
+                <button id="mobile-menu-button" class="mobile-menu-btn" aria-label="Ouvrir le menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
         </div>
-    </header>
+        
+        <!-- Menu Mobile -->
+        <nav id="mobile-menu" class="mobile-menu hidden">
+            <ul class="mobile-nav-links">
+                <li><a href="#about" class="mobile-nav-link"><i class="fas fa-info-circle"></i> À propos</a></li>
+                <li><a href="#formations" class="mobile-nav-link"><i class="fas fa-graduation-cap"></i> Formations</a></li>
+                <li><a href="#professors" class="mobile-nav-link"><i class="fas fa-chalkboard-teacher"></i> Professeurs</a></li>
+                <li><a href="#contact" class="mobile-nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="#" id="theme-toggle-mobile" class="mobile-nav-link"><i class="fas fa-sun"></i> Changer de thème</a></li>
+                <li><a href="#" id="signin-mobile" class="mobile-nav-link"><i class="fas fa-sign-in-alt"></i> Se connecter</a></li>
+                <li><a href="#" id="signup-mobile" class="mobile-nav-link highlight"><i class="fas fa-user-plus"></i> S'inscrire</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
 
     <!-- Main Content -->
     <main>
@@ -187,7 +188,69 @@
                 </div>
             </div>
         </section>
-        
+
+<!-- Professors Section -->
+<section id="professors" class="professors section">
+    <div class="container">
+        <h2 class="section-title">Nos Professeurs</h2>
+        <p class="section-description">
+            Découvrez notre équipe pédagogique composée d'experts reconnus dans leurs domaines respectifs.
+        </p>
+        <div class="professors-preview">
+            <div class="professors-grid">
+                <!-- Professor 1 -->
+                <div class="professor-card">
+                    <div class="professor-image">
+                        <img src="{{ asset('IMG/abdo1.jpg') }}" alt="Dr. Mohammed Amine" class="imageabdo">
+                    </div>
+                    <div class="professor-content">
+                        <h3 class="professor-name">Dr. Mohammed Amine</h3>
+                        <p class="professor-title">Professeur en Intelligence Artificielle</p>
+                        <p class="professor-description">
+                            Spécialiste en apprentissage automatique et réseaux de neurones profonds avec plus de 15 ans d'expérience dans la recherche et l'enseignement.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Professor 2 -->
+                <div class="professor-card">
+                    <div class="professor-image">
+                        <img src="{{ asset('IMG/abdo2.jpg') }}" alt="Dr. Fatima Zahra" class="imageabdo">
+                    </div>
+                    <div class="professor-content">
+                        <h3 class="professor-name">Dr. Fatima Zahra</h3>
+                        <p class="professor-title">Professeur en Science des Données</p>
+                        <p class="professor-description">
+                            Experte en analyse statistique et visualisation de données, avec une solide expérience dans l'industrie et plusieurs publications internationales.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Professor 3 -->
+                <div class="professor-card">
+                    <div class="professor-image">
+                        <img src="{{ asset('IMG/abdo3.jpg') }}" alt="Dr. Youssef" class="imageabdo">
+                    </div>
+                    <div class="professor-content">
+                        <h3 class="professor-name">Dr. Youssef</h3>
+                        <p class="professor-title">Professeur en Cybersécurité</p>
+                        <p class="professor-description">
+                            Spécialiste en sécurité des systèmes d'information et cryptographie, avec une expertise reconnue dans la protection des infrastructures critiques.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="professors-more">
+                <a href="#" id="view-team-button" class="btn btn-outline-primary">
+                    <i class="fas fa-users"></i> Voir toute l'équipe
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 
         <!-- Contact Section -->
         <section id="contact" class="contact section">
@@ -229,7 +292,7 @@
                         </div>
                         <div class="info-group">
                             <h4 class="info-title"><i class="fas fa-envelope"></i> Email</h4>
-                            <p class="info-text">contact@uiz.ac.ma</p>
+                            <p class="info-text"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="30535f5e445153447045594a1e51531e5d51">[email&#160;protected]</a></p>
                         </div>
                         <div class="info-group">
                             <h4 class="info-title"><i class="fas fa-phone"></i> Téléphone</h4>
@@ -269,6 +332,7 @@
                         <ul class="footer-links-list">
                             <li><a href="#about"><i class="fas fa-info-circle"></i> À propos</a></li>
                             <li><a href="#formations"><i class="fas fa-graduation-cap"></i> Formations</a></li>
+                            <li><a href="#professors"><i class="fas fa-chalkboard-teacher"></i> Professeurs</a></li>
                             <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
                         </ul>
                     </div>
@@ -372,6 +436,7 @@
     <div id="toast-container" class="toast-container"></div>
 
     <!-- JavaScript -->
-    <script src="{{ asset('js/ensiasd.js') }}"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="{{ asset('js/ensiasd.js') }}"></script>
 </body>
 </html>
+

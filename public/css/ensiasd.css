@@ -101,6 +101,81 @@ img {
     height: auto;
     display: block;
 }
+/* Style pour les cartes de professeurs */
+.professor-card {
+    background-color: var(--color-background);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+    border: 1px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .professor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary-light);
+  }
+  
+  .professor-image {
+    height: 100px; /* Hauteur fixe pour toutes les images */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .professor-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Assure que l'image couvre tout l'espace sans déformation */
+    object-position: center top; /* Centre l'image et privilégie le haut (visage) */
+  }
+  
+  .professor-content {
+    padding: var(--space-6);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .professor-name {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: var(--space-2);
+    color: var(--color-text);
+  }
+  
+  .professor-title {
+    font-size: var(--font-size-sm);
+    color: var(--color-primary);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: var(--space-4);
+  }
+  
+  .professor-description {
+    color: var(--color-text-light);
+    margin-bottom: var(--space-6);
+    flex-grow: 1;
+  }
+  
+  /* Mise à jour de la grille des professeurs */
+  .professors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--space-8);
+  }
+  
+  /* Si vous voulez utiliser la classe .imageabdo spécifiquement */
+  .imageabdo {
+    max-width: 100%; /* Changé de 80% à 100% pour remplir le conteneur */
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center top;
+  }
+  
+  
 
 a {
     color: var(--color-primary);
@@ -1183,3 +1258,64 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 1.875rem;
     }
 }
+/* Header */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--color-background);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    width: 100%; /* Assure que le header prend toute la largeur */
+  }
+  
+  /* Supprime les contraintes de largeur pour le contenu du header */
+  .header .container {
+    max-width: 100%; /* Prend toute la largeur disponible */
+    padding: 0 var(--space-6); /* Ajoute un peu de padding sur les côtés */
+    width: 100%;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-4) 0;
+    width: 100%; /* Assure que le contenu prend toute la largeur */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+  
+  .logo-img {
+    width: 320px;
+    height: auto;
+    object-fit: contain;
+    position: relative; /* Changé de fixed à relative */
+    float: none; /* Supprime le float */
+  }
+  
+  /* Navigation Desktop */
+  .nav-desktop {
+    display: flex;
+    align-items: center;
+    gap: var(--space-6);
+    margin-left: auto; /* Pousse la navigation vers la droite */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: var(--space-8);
+  }
+  
+  /* Menu Mobile */
+  .mobile-menu {
+    width: 100%; /* Assure que le menu mobile prend toute la largeur */
+    left: 0;
+    padding: var(--space-4) var(--space-6);
+  }
+  
+  
