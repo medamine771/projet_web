@@ -143,7 +143,7 @@
                         <div class="formation-content">
                             <h3 class="formation-title">Sciences Des Données ,Big Data & IA</h3>
                             <p class="formation-description">
-                            Les Sciences des Données, le Big Data et l'IA traitent de l'analyse de grandes quantités de données. Le Big Data gère des volumes massifs, tandis que les Sciences des Données extraient des informations utiles. L'IA permet aux systèmes d'apprendre et de prendre des décisions autonomes, améliorant ainsi l'efficacité. Ces technologies sont cruciales pour l'innovation   </p>     <a href="#" class="btn btn-small btn-primary"><i class="fas fa-info-circle"></i> En savoir plus</a>
+                            Les Sciences des Données, le Big Data et l'IA traitent de l'analyse de grandes quantités de données. Le Big Data gère des volumes massifs, tandis que les Sciences des Données extraient des informations utiles. L'IA permet aux systèmes d'apprendre et de prendre des décisions autonomes, améliorant ainsi l'efficacité. Ces technologies sont cruciales pour l'innovation   </p>     
                         </div>
                     </div>
                     
@@ -157,7 +157,6 @@
                             <h3 class="formation-title">Sécurité IT Et Confiance Numérique</h3>
                             <p class="formation-description">
                             La filière "Sécurité IT & Confiance Numérique" à l’ENSIASD forme des ingénieurs en cybersécurité, cryptographie et protection des systèmes d'information. Elle couvre la sécurisation des réseaux, la gestion des cybermenaces et la conformité réglementaire. Les étudiants apprennent à utiliser des outils comme Kali Linux, Wireshark et SIEM.                            </p>
-                            <a href="#" class="btn btn-small btn-primary"><i class="fas fa-info-circle"></i> En savoir plus</a>
                         </div>
                     </div>
                     
@@ -171,7 +170,6 @@
                             <h3 class="formation-title">Management et Gouvernance des Systèmes d’Information</h3>
                             <p class="formation-description">
                             La filière Management et Gouvernance des Systèmes d'Information (MGSI) forme des professionnels capables de gérer et optimiser les systèmes d'information au sein des organisations. Elle allie compétences techniques en informatique et gestion stratégique. L'objectif est de garantir la sécurité, l'efficacité et l'alignement des SI avec les objectifs d'entreprise.                            </p>
-                            <a href="#" class="btn btn-small btn-primary"><i class="fas fa-info-circle"></i> En savoir plus</a>
                         </div>
                     </div>
                     <!-- Formation IL -->
@@ -184,7 +182,6 @@
                             <h3 class="formation-title">Ingénierie Logicielle</h3>
                             <p class="formation-description">
                             L'Ingénierie Logicielle consiste à appliquer des méthodes et des outils pour concevoir, développer et maintenir des logiciels fiables et efficaces. Elle couvre toutes les étapes du cycle de vie du logiciel, en mettant l'accent sur la qualité, la gestion de projet et la collaboration.                            </p>
-                            <a href="#" class="btn btn-small btn-primary"><i class="fas fa-info-circle"></i> En savoir plus</a>
                         </div>
                     </div>
                 </div>
