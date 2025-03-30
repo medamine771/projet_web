@@ -32,6 +32,7 @@
                     <ul class="nav-links">
                         <li><a href="#about" class="nav-link">À propos</a></li>
                         <li><a href="#formations" class="nav-link">Formations</a></li>
+                        <li><a href="#formations" class="nav-link">Professeurs</a></li>
                         <li><a href="#contact" class="nav-link">Contact</a></li>
                     </ul>
                     <div class="nav-actions">
@@ -290,8 +291,8 @@
                         <ul class="footer-links-list">
                             <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
-                            <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                            <li><a href="https://www.linkedin.com/school/ensiasd/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                            <li><a href="https://www.instagram.com/ensiasd/"><i class="fab fa-instagram"></i> Instagram</a></li>
                         </ul>
                     </div>
                 </div>

@@ -255,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: var(--space-4) 0;
+    padding: var(--space-1) 0;
 }
 
 .logo {
