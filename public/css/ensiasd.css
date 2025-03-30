@@ -200,6 +200,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-primary {
     background-color: var(--color-primary);
     color: var(--color-white);
+    
 }
 
 .btn-primary:hover {
@@ -264,10 +265,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo-img {
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
+    width: 320px;
     object-fit: cover;
+    position: fixed;
+    float: left;
 }
 
 .logo-text {

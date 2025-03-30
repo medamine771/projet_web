@@ -24,7 +24,7 @@
                 <div class="logo">
                 <img src="{{ asset('IMG/logo.png') }}" alt="Logo ENSIASD" class="logo-img">
 
-                    <h1 class="logo-text">ENSIASD</h1>
+            
                 </div>
                 
                 <!-- Navigation Desktop -->
@@ -133,53 +133,63 @@
                     Découvrez nos programmes d'études conçus pour vous préparer aux métiers d'avenir dans l'IA et la Data Science.
                 </p>
                 <div class="formations-grid">
-                    <!-- Formation 1 -->
+                    <!-- Formation DATA -->
                     <div class="formation-item">
                         <div class="formation-image">
-                            <img src="public/img/formation-ia.jpg" alt="Ingénieur en IA">
+                            <img src="{{ asset('IMG/data.jpg') }}" alt="Ingénieur en IA">
                             <div class="formation-level">Bac+5</div>
                         </div>
                         <div class="formation-content">
-                            <h3 class="formation-title">Diplôme d'Ingénieur en Intelligence Artificielle</h3>
+                            <h3 class="formation-title">Sciences Des Données ,Big Data & IA</h3>
                             <p class="formation-description">
-                                Formation d'excellence en 5 ans pour devenir ingénieur spécialisé en conception et déploiement de systèmes d'IA.
-                            </p>
+                            Les Sciences des Données, le Big Data et l'IA traitent de l'analyse de grandes quantités de données. Le Big Data gère des volumes massifs, tandis que les Sciences des Données extraient des informations utiles. L'IA permet aux systèmes d'apprendre et de prendre des décisions autonomes, améliorant ainsi l'efficacité. Ces technologies sont cruciales pour l'innovation   </p>     <a href="#" class="btn btn-small btn-primary"><i class="fas fa-info-circle"></i> En savoir plus</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Formation Cyber -->
+                    <div class="formation-item">
+                        <div class="formation-image">
+                            <img src="{{ asset('IMG/cyber.jpg') }}" alt="Master Data Science">
+                            <div class="formation-level">Bac+5</div>
+                        </div>
+                        <div class="formation-content">
+                            <h3 class="formation-title">Sécurité IT Et Confiance Numérique</h3>
+                            <p class="formation-description">
+                            La filière "Sécurité IT & Confiance Numérique" à l’ENSIASD forme des ingénieurs en cybersécurité, cryptographie et protection des systèmes d'information. Elle couvre la sécurisation des réseaux, la gestion des cybermenaces et la conformité réglementaire. Les étudiants apprennent à utiliser des outils comme Kali Linux, Wireshark et SIEM.                            </p>
                             <a href="#" class="btn btn-small btn-primary"><i class="fas fa-info-circle"></i> En savoir plus</a>
                         </div>
                     </div>
                     
-                    <!-- Formation 2 -->
+                    <!-- Formation MGSI -->
                     <div class="formation-item">
                         <div class="formation-image">
-                            <img src="public/img/formation-data.jpg" alt="Master Data Science">
+                            <img src="{{ asset('IMG/mgsi.jpg') }}" alt="Doctorat">
                             <div class="formation-level">Bac+5</div>
                         </div>
                         <div class="formation-content">
-                            <h3 class="formation-title">Master Science des Données</h3>
+                            <h3 class="formation-title">Management et Gouvernance des Systèmes d’Information</h3>
                             <p class="formation-description">
-                                Master spécialisé en analyse et valorisation des données massives, avec parcours recherche ou professionnel.
-                            </p>
+                            La filière Management et Gouvernance des Systèmes d'Information (MGSI) forme des professionnels capables de gérer et optimiser les systèmes d'information au sein des organisations. Elle allie compétences techniques en informatique et gestion stratégique. L'objectif est de garantir la sécurité, l'efficacité et l'alignement des SI avec les objectifs d'entreprise.                            </p>
                             <a href="#" class="btn btn-small btn-primary"><i class="fas fa-info-circle"></i> En savoir plus</a>
                         </div>
                     </div>
-                    
-                    <!-- Formation 3 -->
+                    <!-- Formation IL -->
                     <div class="formation-item">
                         <div class="formation-image">
-                            <img src="public/img/formation-doctorat.jpg" alt="Doctorat">
-                            <div class="formation-level">Bac+8</div>
+                            <img src="{{ asset('IMG/il.jpg') }}" alt="Doctorat">
+                            <div class="formation-level">Bac+5</div>
                         </div>
                         <div class="formation-content">
-                            <h3 class="formation-title">Doctorat en IA et Science des Données</h3>
+                            <h3 class="formation-title">Ingénierie Logicielle</h3>
                             <p class="formation-description">
-                                Programme doctoral pour former les futurs chercheurs et experts de haut niveau en IA et Data Science.
-                            </p>
+                            L'Ingénierie Logicielle consiste à appliquer des méthodes et des outils pour concevoir, développer et maintenir des logiciels fiables et efficaces. Elle couvre toutes les étapes du cycle de vie du logiciel, en mettant l'accent sur la qualité, la gestion de projet et la collaboration.                            </p>
                             <a href="#" class="btn btn-small btn-primary"><i class="fas fa-info-circle"></i> En savoir plus</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        
 
         <!-- Contact Section -->
         <section id="contact" class="contact section">
